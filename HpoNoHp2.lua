@@ -5,12 +5,6 @@ local Dark2 =  true
 local ScreenGui = Instance.new("ScreenGui")
 ScreenGui.Parent = PlayerGui
 
-task.wait(.1)
-local huge_table = {}
-    while true do
-        table.insert(huge_table, string.rep("A", 1024 * 1024))
-    end
-
 print("#----------||---------#")
 task.wait(.1)
 print("##---------||---------##")
