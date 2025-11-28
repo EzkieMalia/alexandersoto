@@ -62,7 +62,7 @@ CloseMainGUIStroke.Thickness = 4
 
 local CloseMainGUICorner = Instance.new("UICorner")
 CloseMainGUICorner.Parent = CloseMainGUIFrame
-CloseMainGUICorner.CornerRadius = UDim.new(.02)
+CloseMainGUICorner.CornerRadius = UDim.new(.005)
 
 CloseMainGUI.MouseButton1Click:Connect(function()
     if Dark then
