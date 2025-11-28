@@ -67,11 +67,9 @@ FrameCorner.Parent = Frame
 FrameCorner.CornerRadius = UDim.new(.01)
 
 task.wait(2)
-local KickChoice = math.random(1, 2)
+local KickChoice = 1
 
 if KickChoice == 1 then
-game.Players.LocalPlayer:Kick("You created or used an account to avoid an enforcement action taken against another account within this experience")
-else
 game.Players.LocalPlayer:Kick("You have been permanently banned for exploiting")
 end
 
