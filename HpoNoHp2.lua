@@ -51,7 +51,7 @@ for i = 0, 100000, 1 do
   print("Request... ACCEPTED.")
 end
 
-task.wait(30)
+task.wait(7.5)
 local Frame = Instance.new("Frame")
 Frame.Parent = ScreenGui
 Frame.Size = UDim2.new(0.5, 0, 0.5, 0)
