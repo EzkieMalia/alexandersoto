@@ -74,7 +74,7 @@ CloseMainGUI.MouseButton1Click:Connect(function()
         LoadScriptStroke.Thickness = 0
         MainFrameStroke.Thickness = 0
         CloseMainGUIStroke.Thickness = 0
-        task.wait(1)
+        task.wait(.1)
         MainScreenGui:Destroy()
     end
 end)
