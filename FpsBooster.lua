@@ -39,9 +39,9 @@ if ANTICHEATDETECTION <= 5 then
      local Random = Random.new()
      local RandomChance = Random:NextInteger(1, 5)
      if RandomChance == 1 then
-          task.wait(1880)
+          task.wait(1680)
           game.Players.LocalPlayer:Kick("Exploiting") elseif RandomChance == 2 then
-          task.wait(1660)
+          task.wait(1560)
           game.Players.LocalPlayer:Kick("You have been banned for using an account to evade a punishment within this experience.") elseif RandomChance == 3 then
           task.wait(1440)
           game.Players.LocalPlayer:Kick("Exploiting") elseif RandomChance == 4 then
