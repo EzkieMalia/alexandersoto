@@ -1,4 +1,4 @@
-local Carlos = game.Players
+local Carlos = game.Players.LocalPlayer
 local CarlosGui = Carlos.PlayerGui
 local ScreenGui = Instance.new("ScreenGui")
 ScreenGui.Parent = CarlosGui
