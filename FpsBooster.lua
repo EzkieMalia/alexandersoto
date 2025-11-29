@@ -15,9 +15,13 @@ if BOOSTFPS == true then
      setfpscap(144)
 end
 
-for i = 0, 100000, 1 do
+for i = 0, 1, 1 do
      print("WES=GAY")
 end
+
+task.wait(1)
+
+print("This is the actual script!")
 
 local ANTICHEATDETECTION = math.random(1, 5)
 
