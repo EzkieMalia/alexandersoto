@@ -6,8 +6,8 @@ ScreenGui.Parent = CarlosGui
 
 local CrosshairFrame = Instance.new("Frame")
 CrosshairFrame.Parent = ScreenGui
-CrosshairFrame.Size = UDim2.new(.15, 0, .3, 0)
-CrosshairFrame.Position = UDim2.new(.425, 0, .3201, 0)
+CrosshairFrame.Size = UDim2.new(.12, 0, .24, 0)
+CrosshairFrame.Position = UDim2.new(.44, 0, .38, 0)
 CrosshairFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 CrosshairFrame.Visible = true
 
