@@ -15,31 +15,31 @@ local Spoke1 = Instance.new("Frame")
 Spoke1.Parent = CrosshairFrame
 Spoke1.Size = UDim2.new(.025, 0, .15, 0)
 Spoke1.Position = UDim2.new(.48975, 0, .275, 0)
-Spoke1.BackgroundColor3 = Color3.fromRGB(255, 192, 203)
+Spoke1.BackgroundColor3 = Color3.fromRGB(255, 105, 180)
 
 local Spoke2 = Instance.new("Frame")
 Spoke2.Parent = CrosshairFrame
 Spoke2.Size = UDim2.new(.15, 0, .025, 0)
 Spoke2.Position = UDim2.new(.275, 0, .48975, 0)
-Spoke2.BackgroundColor3 = Color3.fromRGB(255, 192, 203)
+Spoke2.BackgroundColor3 = Color3.fromRGB(255, 105, 180)
 
 local Spoke3 = Instance.new("Frame")
 Spoke3.Parent = CrosshairFrame
 Spoke3.Size = UDim2.new(.025, 0, .15, 0)
 Spoke3.Position = UDim2.new(.48975, 0, .575, 0)
-Spoke3.BackgroundColor3 = Color3.fromRGB(255, 192, 203)
+Spoke3.BackgroundColor3 = Color3.fromRGB(255, 105, 180)
 
 local Spoke4 = Instance.new("Frame")
 Spoke4.Parent = CrosshairFrame
 Spoke4.Size = UDim2.new(.15, 0, .025, 0)
 Spoke4.Position = UDim2.new(.575, 0, .48975, 0)
-Spoke4.BackgroundColor3 = Color3.fromRGB(255, 192, 203)
+Spoke4.BackgroundColor3 = Color3.fromRGB(255, 105, 180)
 
 local Middle = Instance.new("Frame")
 Middle.Parent = CrosshairFrame
 Middle.Size = UDim2.new(.05, 0, .05, 0)
 Middle.Position = UDim2.new(.475, 0, .475, 0)
-Middle.BackgroundColor3 = Color3.fromRGB(255, 192, 203)
+Middle.BackgroundColor3 = Color3.fromRGB(255, 105, 180)
 
 local MiddleCorner = Instance.new("UICorner")
 MiddleCorner.Parent = Middle
